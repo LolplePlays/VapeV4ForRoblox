@@ -1938,4 +1938,3 @@ else
 	coroutine.resume(selfdestructsave)
 	shared.VapeFullyLoaded = true
 end
-print("Vape Executed")
