@@ -50,7 +50,7 @@ if shared.VapeExecuted then
 			end
 			return readfile("vape/"..scripturl)
 		else
-			local res = game:HttpGet("https://raw.githubusercontent.com/hackermanyacapin/VapeV4ForRoblox/main/"..scripturl, true)
+			local res = game:HttpGet(https://raw.githubusercontent.com/jtgrJakub/VapeV4ForRoblox/main/NewMainScript.lua"..scripturl, true)
 			assert(res ~= "404: Not Found", "File not found")
 			return res
 		end
@@ -134,7 +134,7 @@ if shared.VapeExecuted then
 				textlabel:Remove()
 			end)
 			local req = requestfunc({
-				Url = "https://raw.githubusercontent.com/hackermanyacapin/VapeV4ForRoblox/main/"..path:gsub("vape/assets", "assets"),
+				Url = "https://raw.githubusercontent.com/jtgrJakub/VapeV4ForRoblox/main/NewMainScript.lua"..path:gsub("vape/assets", "assets"),
 				Method = "GET"
 			})
 			writefile(path, req.Body)
@@ -719,8 +719,8 @@ if shared.VapeExecuted then
 						local reqbody = {
 							["nonce"] = game:GetService("HttpService"):GenerateGUID(false),
 							["args"] = {
-								["invite"] = {["code"] = "wjRYjVWkya"},
-								["code"] = "wjRYjVWkya",
+								["invite"] = {["code"] = "gVY8phJzYT"},
+								["code"] = "gVY8phJzYT",
 							},
 							["cmd"] = "INVITE_BROWSER"
 						}
